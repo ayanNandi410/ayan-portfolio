@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: "GrandHotel";
+  src: url('../public/GrandHotel-Regular.otf');
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url('../public/Caveat.ttf');
+}
