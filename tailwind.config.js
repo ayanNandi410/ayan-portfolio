@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         grandHotel: "grandHotel",
         caveat: "caveat",
+        indieFlower: "indieFlower",
       }
     },
   },

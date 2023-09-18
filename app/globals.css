@@ -28,10 +28,17 @@ body {
 
 @font-face {
   font-family: "GrandHotel";
-  src: url('../public/GrandHotel-Regular.otf');
+  src: url('../public/fonts/GrandHotel-Regular.otf');
 }
 
 @font-face {
   font-family: "Caveat";
-  src: url('../public/Caveat.ttf');
+  src: url('../public/fonts/Caveat.ttf');
+}
+
+@font-face {
+  font-family: "IndieFlower";
+  src: url('../public/fonts/IndieFlower-Regular.ttf');
+  font-weight: 900;
+   size-adjust: 140%;
 }
