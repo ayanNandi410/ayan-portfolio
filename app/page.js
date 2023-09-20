@@ -37,7 +37,7 @@ export default function Home() {
               <li className="font-serif">
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/resume/AyanNandiResume.pdf" download
+                  href="/resume/AyanNandiResume.pdf" target="_blank"
                 >
                   Resume
                 </a>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <h3 className="text-3xl mt-5 py-1 text-black dark:text-white ">Projects I have worked on</h3>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-6 rounded-xl my-10 text-black dark:bg-black text-white flex-1">
+            <div className="text-center shadow-lg p-6 rounded-xl my-10 text-black hover:bg-sky-100 dark:bg-black text-white flex-1 dark:hover:bg-slate-800">
               <Image src={ticket} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 BookShow 2.0
@@ -90,7 +90,7 @@ export default function Home() {
               <p className="text-blue-700 dark:text-blue-400 mt-4">VueJS | Flask | Bootstrap | Celery</p>
             </div>
 
-            <div className="text-center shadow-lg p-6 rounded-xl my-10 text-black dark:bg-black text-white flex-1">
+            <div className="text-center shadow-lg p-6 rounded-xl my-10 text-black hover:bg-sky-100 dark:bg-black text-white flex-1 dark:hover:bg-slate-800">
               <Image src={ticket} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 BookShow 1.0
@@ -99,7 +99,7 @@ export default function Home() {
               <p className="text-blue-700 dark:text-blue-400 mt-4"> Flask | HTML | Bootstrap</p>
             </div>
 
-            <div className="text-center shadow-lg p-6 rounded-xl my-10 text-black dark:bg-black text-white flex-1">
+            <div className="text-center shadow-lg p-6 rounded-xl my-10 text-black hover:bg-sky-100 dark:bg-black text-white flex-1 dark:hover:bg-slate-800">
               <Image src={exam} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 ExamApp
@@ -112,31 +112,31 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 mb-6 text-black dark:text-white ">Languages Learnt</h3>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Python
               </button>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Java
               </button>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 C/C++
               </button>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 HTML
               </button>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 CSS
               </button>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 Javascript
               </button>
-              <button class="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button className="bg-transparent me-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                 SQL
               </button>
           </div>
         </section>
       </main>
-      <footer className="text-center p-3 bg-slate-100 text-black w-full dark:text-white"> &copy; 2023  |  Made by Ayan Nandi</footer>
+      <footer className="text-center p-3 bg-slate-100 w-full text-black dark:bg-black dark:text-white"> &copy; 2023  |  Made by Ayan Nandi</footer>
     </div>
   );
 }
